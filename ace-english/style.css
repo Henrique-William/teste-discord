@@ -1,14 +1,16 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&family=Poppins:wght@300;600&family=Saira+Condensed:wght@300&family=Zen+Kurenaido&display=swap');
 *{
     margin: 0px;
     padding: 0px;
 }
 body{
-    font-family: sans-serif, bold;
+    font-family: Poppins, sans-serif, bold;
 }
 #menu a{
+
     text-decoration: none;
-    color: white;
-    font-size: 15px;
+    color: #F5F2F2 ;
 }
 
 header{
@@ -23,17 +25,31 @@ header{
     margin-left: 2.5rem;
     line-height: center;
     height: 5rem;
+    cursor: pointer;
 }
 #menu{
+    font-size: 20px;
     box-sizing: border-box;
     display: flex;
     justify-content: space-between;
     list-style: none;
-    gap: .5rem;
+    gap: 2rem;
+    padding-top: 3rem;
+    padding-right: 2rem;
 }
 #menu a:hover{
-    color: pink;
+    transition: .2s;
+    color: #202020;
 }
+
+
+
+
+
+
+
+
+
 
 /* CORES
  Color Theme Swatches in Hex
