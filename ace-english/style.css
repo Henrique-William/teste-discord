@@ -1,0 +1,59 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: sans-serif, bold;
+}
+#menu a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+
+header{
+    font-size: 20px;
+    background-color: #010b40;
+    color: white;
+    height: 6rem;
+    display: flex;
+    justify-content: space-between;
+}
+#logo{
+    margin-left: 2.5rem;
+    line-height: center;
+    height: 5rem;
+}
+#menu{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: .5rem;
+}
+#menu a:hover{
+    color: pink;
+}
+
+/* CORES
+ Color Theme Swatches in Hex
+.Re-Styling-for-Neorama-1-hex { color: #010B40; }
+.Re-Styling-for-Neorama-2-hex { color: #0622BF; }
+.Re-Styling-for-Neorama-3-hex { color: #03258C; }
+.Re-Styling-for-Neorama-4-hex { color: #03318C; }
+.Re-Styling-for-Neorama-5-hex { color: #F2F2F2; }
+
+ Color Theme Swatches in RGBA 
+.Re-Styling-for-Neorama-1-rgba { color: rgba(1, 10, 63, 1); }
+.Re-Styling-for-Neorama-2-rgba { color: rgba(5, 33, 191, 1); }
+.Re-Styling-for-Neorama-3-rgba { color: rgba(2, 37, 140, 1); }
+.Re-Styling-for-Neorama-4-rgba { color: rgba(2, 48, 140, 1); }
+.Re-Styling-for-Neorama-5-rgba { color: rgba(242, 242, 242, 1); }
+
+ Color Theme Swatches in HSLA 
+.Re-Styling-for-Neorama-1-hsla { color: hsla(230, 96, 12, 1); }
+.Re-Styling-for-Neorama-2-hsla { color: hsla(230, 94, 38, 1); }
+.Re-Styling-for-Neorama-3-hsla { color: hsla(225, 96, 28, 1); }
+.Re-Styling-for-Neorama-4-hsla { color: hsla(219, 96, 28, 1); }
+.Re-Styling-for-Neorama-5-hsla { color: hsla(0, 0, 95, 1); }
+*/
